@@ -10,3 +10,17 @@ for _ in range(5):
 
 #cetak hasil
 print (f"Hasil Algoritma 1: {x_awal1}")
+
+Total2 = 0.0
+#input nilai awal yang merupakan angka kecil
+x_awal2 = 0.0001
+
+#perulangan angka 0.0001 sebanyak 5 kali
+for _ in range (5):
+  Total2 += x_awal2
+  
+#input nilai selanjutnya yang merupakan angka yang besar
+Total2 += 10000.0
+
+#cetak hasil
+print(f"Hasil Algoritma 2: {Total2}")
